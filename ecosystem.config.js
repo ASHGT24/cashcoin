@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'nextjs-app',
+        name: 'CashCoins',
         script: 'npm',
         args: 'start',
         instances: 'max',   // or a specific number of instances, e.g., 4
