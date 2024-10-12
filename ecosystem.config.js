@@ -1,16 +1,17 @@
 module.exports = {
     apps: [
       {
-        name: "nextjs-app",
-        script: "server.js",    // Or 'npm start' if using package.json start script
-        instances: "max",       // Auto-scaled to the number of CPUs available
-        exec_mode: "cluster",   // Enables load-balancing mode
-        watch: false,           // If you want PM2 to watch file changes
+        name: 'nextjs-app',     // Name of the application
+        script: 'npm',          // Using npm to run the Next.js scripts
+        args: 'start',          // Runs 'npm start' to start the Next.js server
+        instances: 'max',       // Auto-scale to all available CPUs
+        exec_mode: 'cluster',   // Enable load balancing between instances
+        watch: false,           // Disable file watching for production
         env: {
-          NODE_ENV: "development",
+          NODE_ENV: 'development',
         },
         env_production: {
-          NODE_ENV: "production",
+          NODE_ENV: 'production',
         },
       },
     ],
