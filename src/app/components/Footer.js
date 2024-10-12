@@ -6,10 +6,10 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold text-white mb-6">Contact Info</h3>
-            <p className="text-gray-400 mb-2">3015 Grand Ave, Coconut Grove,</p>
+            {/* <p className="text-gray-400 mb-2">3015 Grand Ave, Coconut Grove,</p>
             <p className="text-gray-400 mb-2">Merrick Way, FL 12345</p>
-            <p className="text-gray-400 mb-2">Phone: 123-456-7890</p>
-            <p className="text-gray-400">Email: info@cryptosite.com</p>
+            <p className="text-gray-400 mb-2">Phone: 123-456-7890</p> */}
+            <p className="text-gray-400">Email: info@cashcoin.com</p>
           </div>
 
           {/* Categories or Resources */}
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
 
           {/* Recent Posts */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold text-white mb-6">Recent Posts</h3>
             <ul className="space-y-3">
               <li>
@@ -88,7 +88,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Divider and Social Media Links */}
@@ -111,7 +111,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} CryptoSite. All rights reserved.
+            &copy; {new Date().getFullYear()} CashCoin. All rights reserved.
           </p>
         </div>
       </div>

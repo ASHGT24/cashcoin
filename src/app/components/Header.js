@@ -7,7 +7,7 @@ export default function Header() {
         {/* Logo */}
         <div className="text-3xl font-extrabold text-white tracking-widest">
           <Link href="/">
-            Crypto<span className="text-blue-400">Site</span>
+            CashCoin
           </Link>
         </div>
 

@@ -7,8 +7,8 @@ export default function HomePage() {
       <div className="h-screen flex items-center justify-center bg-cover bg-center relative overflow-hidden" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1639754390580-2e7437267698?q=80&w=1682&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` }}>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Overlay */}
         <div className="relative z-10 text-center animate-fade-in-up">
-          <h1 className="text-6xl font-extrabold text-white mb-4 animate-pulse">Welcome to CryptoSite</h1>
-          <p className="text-xl text-gray-300 mb-6">Your gateway to the world of cryptocurrency</p>
+          <h1 className="text-6xl font-extrabold text-white mb-4 animate-pulse">Welcome to Cash Coin</h1>
+          <p className="text-xl text-gray-300 mb-6">Your own trusted cryptocurrency site</p>
           <Link href="/market">
             <button className="bg-blue-600 text-white px-8 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">Explore the Market</button>
           </Link>
